@@ -1,0 +1,13 @@
+[package]
+name = "icp_token_wallet"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ic-cdk = "0.3"
+ic-cdk-macros = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+candid = "0.3"
+
+
+
